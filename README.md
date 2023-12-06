@@ -4,7 +4,7 @@ This project builds a camera that can automatically read and recognize license p
 ### Overview
 The camera uses computer vision and machine learning models to detect and read license plates in real-time video streams. Key features:
 Uses OpenCV for computer vision techniques like image processing, object detection etc.
-Employs a custom trained YOLO v3 model to detect license plates in video frames
+Employs a custom trained YOLO v5 model to detect license plates in video frames
 Applies optical character recognition (OCR) to extract the license plate text
 Can achieve 90%+ accuracy in ideal lighting conditions
 ## Getting Started
