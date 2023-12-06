@@ -34,7 +34,7 @@ MIT
 
 ### quick run
 
-1. ``` git clone https://github.com/sadranamavar/Cam-Scanner-Uni-navid.git ```
+1. ``` git clone https://github.com/NaviW-D/Cam-Scanner-Uni.git ```
 
 2. ``` cd  Cam-Scanner-Uni```
     or ``` cd Cam-Scanner-Uni-navid```
