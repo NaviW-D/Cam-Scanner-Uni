@@ -12,7 +12,7 @@ Can achieve 90%+ accuracy in ideal lighting conditions
 You need Python 3.6 or later and the following packages:
 - OpenCV
 - NumPy
-- TensorFlow (for YOLOv3 model)
+- TensorFlow (for YOLOv5 model)
 - easyOCR (for OCR)
  
  It's recommended to use a GPU for efficient performance.
@@ -23,7 +23,7 @@ You need Python 3.6 or later and the following packages:
 1. Run python app.py with appropriate command line args
 1. Point camera at cars to detect and recognize license plates!
 ### Custom Training
-The pre-trained model works well but you can improve accuracy by re-training the YOLOv3 model on your own license plate datasets. The repo includes the scripts and annotations for re-training.
+The pre-trained model works well but you can improve accuracy by re-training the YOLOv5 model on your own license plate datasets. The repo includes the scripts and annotations for re-training.
 ### Contributing
 Pull requests are welcome! Feel free to contribute to this project.
 ### License
