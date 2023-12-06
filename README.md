@@ -39,7 +39,7 @@ MIT
 2. ``` cd  Cam-Scanner-Uni```
     or ``` cd Cam-Scanner-Uni-navid```
 3. ``` cd server ```
-4. ``` pip install requirements.txt ```
+4. ``` pip install -r requirements.txt ```
 5. ``` cd camscan ```
 6. ``` ./manage.py makemigrations ```
 7. ``` ./manage.py migrate ```
