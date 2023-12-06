@@ -30,6 +30,28 @@ Pull requests are welcome! Feel free to contribute to this project.
 MIT
 
 
+# server
+
+### quick run
+
+1. ``` git clone https://github.com/sadranamavar/Cam-Scanner-Uni-navid.git ```
+
+2. ``` cd  Cam-Scanner-Uni```
+    or ``` cd Cam-Scanner-Uni-navid```
+3. ``` cd server ```
+4. ``` pip install -r requirements.txt ```
+5. ``` cd camscan ```
+6. ``` ./manage.py makemigrations ```
+7. ``` ./manage.py migrate ```
+8. ``` ./manage.py createsuperuser ```
+9. complete answer
+10. ``` ./manage.py runserver ```
+11. open http://127.0.0.1:8000/admin/
+
+
+
 # todo
 - [x] Start
-- [ ] a
+- [x] make simple backend
+- [ ] create ui and front
+- [ ] create computer vision to get automatic car tag
