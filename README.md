@@ -19,7 +19,7 @@ You need Python 3.6 or later and the following packages:
 ### Usage
 1. Clone the repo
 1. Install dependencies
-1. Download pre-trained YOLOv3 weights file (provided in repo/models dir)
+1. Download pre-trained YOLOv5 weights file (provided in repo/models dir)
 1. Run python app.py with appropriate command line args
 1. Point camera at cars to detect and recognize license plates!
 ### Custom Training
