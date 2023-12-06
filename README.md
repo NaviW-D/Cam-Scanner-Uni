@@ -46,10 +46,12 @@ MIT
 8. ``` ./manage.py createsuperuser ```
 9. complete answer
 10. ``` ./manage.py runserver ```
-11. open http://127.0.0.1:8000/admin
+11. open http://127.0.0.1:8000/admin/
 
 
 
 # todo
 - [x] Start
-- [ ] a
+- [x] make simple backend
+- [ ] create ui and front
+- [ ] create computer vision to get automatic car tag
