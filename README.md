@@ -53,5 +53,5 @@ MIT
 # todo
 - [x] Start
 - [x] make simple backend
-- [ ] create ui and front
+- [x] create ui and front
 - [ ] create computer vision to get automatic car tag
