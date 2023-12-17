@@ -18,6 +18,14 @@ form {
   margin-bottom: 15px;
 }
 
+.d-none {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -33,7 +41,7 @@ select {
   border: 1px solid #ccc;
 }
 
-input[type="submit"] {
+input[type="button"] {
   width: 100%; /* تغییر عرض دکمه به 100% */
   padding: 10px 20px;
   font-size: 18px;
@@ -44,8 +52,34 @@ input[type="submit"] {
   cursor: pointer;
   display: block; /* نمایش دکمه به صورت بلوک */
   margin: 0 auto; /* قرار دادن دکمه در وسط فرم با استفاده از margin */
+  text-align: center;
 }
 
 input[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+#notif {
+  width: 70%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  color: #f8f8f8;
+}
+
+.success {
+  background: #00ff88;
+  border-color: #00aa77;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.error {
+  background: #f10;
+  border-color: #a40;
+  border-width: 1px;
+  border-style: solid;
 }
