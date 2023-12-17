@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
   <meta charset="UTF-8">
   <title>فرم ورود پلاک و اجازه تردد ماشین</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-
-<h2>ورود پلاک و اجازه تردد ماشین</h2>
-
-<form action="/submit_plate_info" method="post">
-  <div class="form-group">
-    <label for="plate_number">شماره پلاک:</label>
-    <input type="text" id="plate_number" name="plate_number" required>
-  </div>
   
+  <h2>ورود پلاک و اجازه تردد ماشین</h2>
 
-  
-  <div class="form-group">
-    <input type="submit" value="استعلام">
-  </div>
-</form>
+  <form  method="post">
+    <div class="form-group">
+      <label for="plate_number">شماره پلاک:</label>
+      <input type="text" id="plate_number" name="plate_number" required>
+    </div>
 
+    <dev id="notif"></dev>
+
+    <div class="form-group">
+      <input type="button" id="submit" value="استعلام">
+    </div>
+  </form>
 </body>
+<script src="./script.js"></script>
 </html>
