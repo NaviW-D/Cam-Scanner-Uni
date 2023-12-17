@@ -3,14 +3,21 @@ getData = async () => {
   response = await response.json()
   console.log(response)
   if (response.status){
-    alert("can pass")
+    notif.classList.add("success")
+    notif.classList.remove("d-none")
+    notif.classList.remove("error")
+    notif.textContent = "can pass"
   }
   else{
-    alert("can't pass")
+    notif.classList.add("error")
+    notif.classList.remove("d-none")
+    notif.classList.remove("success")
+    notif.textContent = "can't pass"
   }
     
 };
 
 tag = document.getElementById("plate_number")
 btn = document.getElementById("submit");
+notif = document.getElementById("notif")
 btn.onclick = getData;
