@@ -7,6 +7,12 @@ Uses OpenCV for computer vision techniques like image processing, object detecti
 Employs a custom trained YOLO v5 model to detect license plates in video frames
 Applies optical character recognition (OCR) to extract the license plate text
 Can achieve 90%+ accuracy in ideal lighting conditions
+
+### Features
+License Plate Recognition: Utilizes image processing to read and extract information from car license plates.
+Python Backend: Employs Python for the backend logic and handling of the recognition process.
+Roboflow Integration: Utilizes Roboflow for its image processing capabilities and optimizations.
+HTML/CSS Frontend: Provides a user-friendly interface designed using HTML and CSS.
 ## Getting Started
 ### Prerequisites
 You need Python 3.6 or later and the following packages:
