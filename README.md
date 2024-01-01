@@ -61,3 +61,6 @@ MIT
 - [x] make simple backend
 - [x] create ui and front
 - [ ] create computer vision to get automatic car tag
+
+# video 
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](IMG_0350%20copy.mp4)
