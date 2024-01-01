@@ -63,4 +63,4 @@ MIT
 - [ ] create computer vision to get automatic car tag
 
 # video 
-[![Watch the video](https://i.stack.imgur.com/IMG_0349.jpg)](IMG_0350%20copy.mp4)
+[![Watch the video]([https://i.stack.imgur.com/IMG_0349.jpg](https://github.com/NaviW-D/Cam-Scanner-Uni/blob/main/static/IMG_0349.jpg)https://github.com/NaviW-D/Cam-Scanner-Uni/blob/main/static/IMG_0349.jpg)](https://github.com/NaviW-D/Cam-Scanner-Uni/blob/main/static/IMG_0350%20copy.mp4)
